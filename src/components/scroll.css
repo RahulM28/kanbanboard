@@ -1,0 +1,9 @@
+/* hide scrollbar but allow scrolling */
+.column{
+    -ms-overflow-style: none; /*for internet explorer, edge */
+    scrollbar-width: none;  /*for firefox */
+    overflow-y: scroll;
+} 
+.column::-webkit-scrollbar {
+display: none; /*for chrome,safari, and opera */
+}

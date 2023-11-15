@@ -1,0 +1,97 @@
+
+.parent{
+
+}
+
+.parent1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: auto;
+    align-items:center ;
+    margin-left: 3px;
+    padding: 0;
+    margin: auto;
+}
+.toggle-btn{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+.child1{
+    margin:0px ;
+    padding: 0px;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    box-shadow: none;
+    border: 2px solid black;
+    border-radius: 8px;
+
+}
+.child1 .btn{ 
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-size:inherit;
+    margin: 30px 150px 30ox;
+    background-color: white;
+    display: block;
+
+}
+.delbtn{
+    height: 46px;
+    width: 131px;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    border-radius: 30px;
+    color: brown;
+    font-size: large;
+    font-weight: 600;
+    background-color: lightpink;
+    text-align: center;
+    align-items:center ;
+    font-family: sans-serif;
+}
+.child2{
+    margin-left: 10px;
+    height: 80%;
+    width: 70%;
+    box-shadow: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -125px;
+
+}
+.child2 .savebtn{
+    height: 46px;
+    width: 131px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    background-color: black;
+    text-align: center;
+    align-items:center ;
+
+}
+
+.subChild{
+    margin: 10px;
+    padding: 10px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+}
+.subChild TextField{
+ padding: 10px;
+}

@@ -1,0 +1,62 @@
+*{
+  font-family: "Public sans", sans-serif;
+}
+.upload-btn {
+  position: relative;
+  display: flex;
+  height: 150px;
+  width: 150px;
+  box-shadow: none;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: whitesmoke;
+}
+.upload-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    
+}
+.upload-input{
+    display: none;
+    
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.delbtn {
+  height: 46px;
+  width: 131px;
+  border: none;
+  border-radius: 10px;
+  color: brown;
+  font-size: large;
+  font-weight: 600;
+  background-color: lightpink;
+  text-align: center;
+  align-items: center;
+  font-family: sans-serif;
+  
+}
+.savebtn {
+  height: 46px;
+  width: 131px;
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  background-color: rgb(0, 162, 255);
+  text-align: center;
+  align-items: center;
+  
+}
+
+.employee-details-wrapper {
+  padding: 16px;
+}
